@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "npm run serve",
-    "serve": "ls ./bin/;cat  ./bin/server.js;node ./bin/server.js",
+    "serve": "node ./bin/server.js",
     "dev": "tsc --watch --lib es2018 & nodemon ./bin/server.js"
   },
   "dependencies": {
