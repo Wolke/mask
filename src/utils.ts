@@ -43,9 +43,9 @@ export const getDrugStoreByLocation = async (longitude: number, latitude: number
                 })
 
                 ary.sort((a: any, b: any) => {
-                    return (a.properties.mask_adult > b.properties.mask_adult) ? 0 : 1
+                    return (a.properties.mask_adult > b.properties.mask_adult) ? 1 : 0
                 })
-                resolve(ary)
+                resolve(ary.slice())
             })
 
     })
