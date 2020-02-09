@@ -1,0 +1,27 @@
+{
+  "name": "mask",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "node ./bin/server.js",
+    "dev": "tsc --watch --lib es2018 & nodemon ./bin/server.js"
+  },
+  "dependencies": {
+    "@google/maps": "^1.1.0",
+    "actions-on-google": "^2.5.0",
+    "dialogflow-fulfillment": "^0.6.1",
+    "express": "^4.16.4",
+    "jsonfile": "^5.0.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "@types/actions-on-google": "^1.10.2",
+    "@types/express": "^4.16.0",
+    "@types/node": "^10.14.12"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "description": ""
+}
