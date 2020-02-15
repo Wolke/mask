@@ -1,6 +1,4 @@
 import { dialogflow, Permission, List, BasicCard, Button, SimpleResponse, Image, BrowseCarousel, BrowseCarouselItem, Dialogflow } from "actions-on-google";
-// import { getTrashTimeByName, getTrashTimeByLocation } from "./response"
-// import { TrashLine } from "./const";
 import { getDrugStoreByLocation, addressToGeo } from "./utils"
 
 export default function (request: Express.Request, response: Express.Response) {
