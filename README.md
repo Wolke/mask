@@ -11,6 +11,9 @@ Aog link: https://assistant.google.com/services/a/uid/0000008dad963124
 收錄：
 https://g0v.hackmd.io/gGrOI4_aTsmpoMfLP1OU4A
 
+記實：
+https://medium.com/wolkesau/2020-開春首場全台開發者參與黑客松口罩配參賽全紀錄-81177a193d98
+
 ---
 
 ## Running
